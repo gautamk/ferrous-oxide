@@ -1,7 +1,7 @@
 fn main(){
     let x = 4;
 
-    let y = if x == 5 { 10 } else { 15 }; // y: i32
+    let x = (let y = 5); // expected identifier, found keyword `let`
 
     println!("Y is {}",y );
 }
