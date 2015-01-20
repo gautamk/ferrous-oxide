@@ -1,5 +1,7 @@
 fn main(){
-    let x: i32=32;
+    let x = 4;
 
-    println!("The value of x is: {}", x);
+    let y = if x == 5 { 10 } else { 15 }; // y: i32
+
+    println!("Y is {}",y );
 }
