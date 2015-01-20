@@ -1,0 +1,6 @@
+[package]
+name="hello_world"
+version="0.0.1"
+authors=["Gautam <contact@gautamk.com>"]
+[[bin]]
+name="hello_world"
