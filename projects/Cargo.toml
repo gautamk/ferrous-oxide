@@ -1,0 +1,9 @@
+[package]
+
+name = "projects"
+version = "0.0.1"
+authors = ["Gautam K <gautam.nitheesh@gmail.com>"]
+
+[[bin]]
+
+name = "projects"
